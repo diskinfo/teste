@@ -13,7 +13,7 @@
 			if (mysqli_query($conexao, $query)){ ?>
 				<p class="alert-sucess">Produto <?php echo $nome?> com o valor de <?php echo $preco?> adicionado com sucesso!</p>
 			<?php }else{ ?>
-			<p class="alert-danger">Produto <?php echo $nome?> NÃO foi adicionado, verifique!</p>
+				<p class="alert-danger">Produto <?php echo $nome?> NÃO foi adicionado, verifique!</p>
 			<?php }
 
 			//fecha conexão
